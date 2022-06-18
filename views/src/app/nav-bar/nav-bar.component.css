@@ -1,0 +1,12 @@
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dropdown-menu.show {
+  margin-top: -1vh;
+  width: 40%;
+  margin-left: 38vw;
+}
+
+

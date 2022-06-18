@@ -1,0 +1,9 @@
+<div class="col-md-6" *ngFor="let city of cities">
+  <div class="card card-custom mx-2 mb-3" >
+    <img class="card-img-top" [src]="city.image" alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">{{city.name}}</p>
+    </div>
+    <app-weather></app-weather>
+  </div>
+</div>
